@@ -8,7 +8,7 @@ export default class Todo {
 
   get Template() {
     return /*html*/`
-    <div class="col-3 text-center todoBackground rounded shadow-lg">
+    <div class="col-auto text-center todoBackground rounded shadow-lg ml-2 mb-2">
     <h4 class="todoTitle">Item:</h4>
     <h2 class="todoItem">${this.description}</h2>
     <h6 class="text-warning">User: ${this.user}</h6>

@@ -55,6 +55,7 @@
   text-align: center;
   border-style: solid;
   border-color: #1afa06;
+  justify-content: space-evenly;
   }
 
   .todoItem{
