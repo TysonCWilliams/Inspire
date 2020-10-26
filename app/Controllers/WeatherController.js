@@ -1,5 +1,5 @@
-import { ProxyState } from "../AppState.js";
 import weatherService from "../Services/WeatherService.js";
+import { ProxyState } from "../AppState.js";
 
 //NOTE The weather service and controller are mostly done,
 //		you may wish to check out the model and include some additional data.
@@ -7,6 +7,8 @@ import weatherService from "../Services/WeatherService.js";
 //TODO Complete rendering data to the screen
 function drawWeather() {
   console.log("THE WEATHER MAN SAYS:", ProxyState.weather);
+  document.getElementById('weather-card').innerHTML = ProxyState.weather.Template;
+  
 }
 export default class WeatherController {
   constructor() {
