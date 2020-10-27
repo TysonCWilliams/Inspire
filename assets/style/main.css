@@ -80,9 +80,24 @@
     transform: translateX(-50%) translateY(-50%);
     color: #06f83a;
     font-size: 60px;
-    font-family: Orbitron;
-    letter-spacing: 7px;
-    background-color: rgba(7, 7, 7, 0.5);
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 10px;
+    background-color: rgba(170, 173, 169, 0.5);
+    border-color: rgb(13, 14, 13);
+    border-style: ridge;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.weather-style{
+ border-style: solid ;
+ border-color: #06f83a;
+ margin-top: 1em;
+}
+
+.quote-style{
+  border-style: solid;
+  border-color: ghostwhite;
 }
 /* .fake-transition {
   animation-name: fake-transition;
