@@ -10,7 +10,7 @@ class TodoService {
   async getTodos() {
 
     let res = await api.get(url);
-    let results = res.data.data.map(rawData => new Todo(rawData));
+    let results = res.data.map(rawData => new Todo(rawData));
     ProxyState.todos = results;
   }
 

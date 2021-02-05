@@ -16,7 +16,6 @@ export default class Todo {
     <button onclick="app.todoController.removeTodo('${this._id}')"><i class="fas fa-trash text-danger"></i></button>
     </div>
       `;
-  
   }
   
   
